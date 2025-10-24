@@ -28,7 +28,7 @@ class MemberController extends AuthController
      * 测试用
      *
      *   test_environment: http://report2.ikun:9090/api/wxapp/member/index
-     *   official_environment: https://lscs001.jscxkf.net/api/wxapp/member/index
+     *   official_environment: http://xcxkf228.aubye.com/api/wxapp/member/index
      *   api: /wxapp/member/index
      *   remark_name: 测试用
      *
@@ -70,7 +70,7 @@ class MemberController extends AuthController
      * )
      *
      *   test_environment: http://report2.ikun:9090/api/wxapp/member/find_member
-     *   official_environment: https://lscs001.jscxkf.net/api/wxapp/member/find_member
+     *   official_environment: http://xcxkf228.aubye.com/api/wxapp/member/find_member
      *   api: /wxapp/member/find_member
      *   remark_name: 查询会员信息
      *
@@ -172,7 +172,7 @@ class MemberController extends AuthController
      * )
      *
      *   test_environment: http://report2.ikun:9090/api/wxapp/member/update_member
-     *   official_environment: https://lscs001.jscxkf.net/api/wxapp/member/update_member
+     *   official_environment: http://xcxkf228.aubye.com/api/wxapp/member/update_member
      *   api: /wxapp/member/update_member
      *   remark_name: 更新会员信息
      *
@@ -287,7 +287,7 @@ class MemberController extends AuthController
      * )
      *
      *   test_environment: http://report2.ikun:9090/api/wxapp/member/find_asset_list
-     *   official_environment: https://lscs001.jscxkf.net/api/wxapp/member/find_asset_list
+     *   official_environment: http://xcxkf228.aubye.com/api/wxapp/member/find_asset_list
      *   api: /wxapp/member/find_asset_list
      *   remark_name: 账户资产变动明细
      *
@@ -372,7 +372,7 @@ class MemberController extends AuthController
      * )
      *
      *   test_environment: http://report2.ikun:9090/api/wxapp/member/find_team_list
-     *   official_environment: https://lscs001.jscxkf.net/api/wxapp/member/find_team_list
+     *   official_environment: http://xcxkf228.aubye.com/api/wxapp/member/find_team_list
      *   api: /wxapp/member/find_team_list
      *   remark_name: 团队列表查询
      *
@@ -446,7 +446,7 @@ class MemberController extends AuthController
      * )
      *
      *   test_environment: http://report2.ikun:9090/api/wxapp/member/poster
-     *   official_environment: https://lscs001.jscxkf.net/api/wxapp/member/poster
+     *   official_environment: http://xcxkf228.aubye.com/api/wxapp/member/poster
      *   api: /wxapp/member/poster
      *   remark_name: 获客海报&分享&推广二维码
      *

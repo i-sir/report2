@@ -61,7 +61,7 @@ class OrderPayController extends AuthController
      * )
      *
      *   test_environment: http://report2.ikun:9090/api/wxapp/order_pay/wx_pay_mini
-     *   official_environment: https://lscs001.jscxkf.net/api/wxapp/order_pay/wx_pay_mini
+     *   official_environment: http://xcxkf228.aubye.com/api/wxapp/order_pay/wx_pay_mini
      *   api: /wxapp/order_pay/wx_pay_mini
      *   remark_name: 微信小程序支付
      *
@@ -166,7 +166,7 @@ class OrderPayController extends AuthController
      * )
      *
      *   test_environment: http://report2.ikun:9090/api/wxapp/order_pay/balance_pay
-     *   official_environment: https://lscs001.jscxkf.net/api/wxapp/order_pay/balance_pay
+     *   official_environment: http://xcxkf228.aubye.com/api/wxapp/order_pay/balance_pay
      *   api: /wxapp/order_pay/balance_pay
      *   remark_name: 余额支付
      *
@@ -287,7 +287,7 @@ class OrderPayController extends AuthController
      * )
      *
      *   test_environment: http://report2.ikun:9090/api/wxapp/order_pay/point_pay
-     *   official_environment: https://lscs001.jscxkf.net/api/wxapp/order_pay/point_pay
+     *   official_environment: http://xcxkf228.aubye.com/api/wxapp/order_pay/point_pay
      *   api: /wxapp/order_pay/point_pay
      *   remark_name: 积分支付
      *
@@ -407,7 +407,7 @@ class OrderPayController extends AuthController
      * )
      *
      *   test_environment: http://report2.ikun:9090/api/wxapp/order_pay/free_pay
-     *   official_environment: https://lscs001.jscxkf.net/api/wxapp/order_pay/free_pay
+     *   official_environment: http://xcxkf228.aubye.com/api/wxapp/order_pay/free_pay
      *   api: /wxapp/order_pay/free_pay
      *   remark_name: 免费兑换
      *
@@ -465,7 +465,7 @@ class OrderPayController extends AuthController
     }
 
 
-    // 测试用 https://lscs001.jscxkf.net/api/wxapp/order_pay/wx_pay_mini2
+    // 测试用 http://xcxkf228.aubye.com/api/wxapp/order_pay/wx_pay_mini2
     public function wx_pay_mini2()
     {
 
@@ -549,7 +549,7 @@ class OrderPayController extends AuthController
      * )
      *
      *   test_environment: http://report2.ikun:9090/api/wxapp/order_pay/wx_pay_mp
-     *   official_environment: https://lscs001.jscxkf.net/api/wxapp/order_pay/wx_pay_mp
+     *   official_environment: http://xcxkf228.aubye.com/api/wxapp/order_pay/wx_pay_mp
      *   api: /wxapp/order_pay/wx_pay_mp
      *   remark_name: 微信公众号支付
      *
@@ -619,7 +619,7 @@ class OrderPayController extends AuthController
      * )
      *
      *   test_environment: http://report2.ikun:9090/api/wxapp/order_pay/wx_pay_app
-     *   official_environment: https://lscs001.jscxkf.net/api/wxapp/order_pay/wx_pay_app
+     *   official_environment: http://xcxkf228.aubye.com/api/wxapp/order_pay/wx_pay_app
      *   api: /wxapp/order_pay/wx_pay_app
      *   remark_name: 微信App支付
      *
@@ -638,7 +638,7 @@ class OrderPayController extends AuthController
      *   微信订单退款 测试
      *
      *   test_environment: http://report2.ikun:9090/api/wxapp/order_pay/wx_pay_refund_test
-     *   official_environment: https://lscs001.jscxkf.net/api/wxapp/order_pay/wx_pay_refund_test
+     *   official_environment: http://xcxkf228.aubye.com/api/wxapp/order_pay/wx_pay_refund_test
      *   api: /wxapp/order_pay/wx_pay_refund_test
      *   remark_name: 微信订单退款
      *
@@ -720,7 +720,7 @@ class OrderPayController extends AuthController
      * )
      *
      *   test_environment: http://report2.ikun:9090/api/wxapp/order_pay/ali_pay_wap
-     *   official_environment: https://lscs001.jscxkf.net/api/wxapp/order_pay/ali_pay_wap
+     *   official_environment: http://xcxkf228.aubye.com/api/wxapp/order_pay/ali_pay_wap
      *   api: /wxapp/order_pay/ali_pay_wap
      *   remark_name: 支付宝h5支付
      *
@@ -779,7 +779,7 @@ class OrderPayController extends AuthController
      * )
      *
      *   test_environment: http://report2.ikun:9090/api/wxapp/order_pay/ali_pay_app
-     *   official_environment: https://lscs001.jscxkf.net/api/wxapp/order_pay/ali_pay_app
+     *   official_environment: http://xcxkf228.aubye.com/api/wxapp/order_pay/ali_pay_app
      *   api: /wxapp/order_pay/ali_pay_app
      *   remark_name: 支付宝APP支付
      *
@@ -829,7 +829,7 @@ class OrderPayController extends AuthController
      *
      *
      *   test_environment: http://report2.ikun:9090/api/wxapp/order_pay/ali_pay_refund
-     *   official_environment: https://lscs001.jscxkf.net/api/wxapp/order_pay/ali_pay_refund
+     *   official_environment: http://xcxkf228.aubye.com/api/wxapp/order_pay/ali_pay_refund
      *   api: /wxapp/order_pay/ali_pay_refund
      *   remark_name: 支付宝订单退款
      *
@@ -851,7 +851,7 @@ class OrderPayController extends AuthController
      *
      *
      *   test_environment: http://report2.ikun:9090/api/wxapp/order_pay/ali_transfer_accounts
-     *   official_environment: https://lscs001.jscxkf.net/api/wxapp/order_pay/ali_transfer_accounts
+     *   official_environment: http://xcxkf228.aubye.com/api/wxapp/order_pay/ali_transfer_accounts
      *   api: /wxapp/order_pay/ali_transfer_accounts
      *   remark_name: 支付宝转账
      *
@@ -878,7 +878,7 @@ class OrderPayController extends AuthController
      *
      *
      *   test_environment: http://report2.ikun:9090/api/wxapp/order_pay/wx_pay_transfer
-     *   official_environment: https://lscs001.jscxkf.net/api/wxapp/order_pay/wx_pay_transfer
+     *   official_environment: http://xcxkf228.aubye.com/api/wxapp/order_pay/wx_pay_transfer
      *   api: /wxapp/order_pay/wx_pay_transfer
      *   remark_name: 微信转账
      *

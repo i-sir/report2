@@ -18,7 +18,7 @@ use initmodel\MemberModel;
  *     "version"                 =>"1.0",
  *     "use"                     => new \api\wxapp\controller\InitController();
  *     "test_environment"        =>"http://report2.ikun:9090/api/wxapp/init/index",
- *     "official_environment"    =>"https://lscs001.jscxkf.net/api/wxapp/init/index",
+ *     "official_environment"    =>"http://xcxkf228.aubye.com/api/wxapp/init/index",
  * )
  */
 class InitController
@@ -32,7 +32,7 @@ class InitController
      * 给上级发放佣金
      * @param $p_user_id 上级id
      * @param $child_id 子级id
-     *                  https://lscs001.jscxkf.net/api/wxapp/init/send_invitation_commission?p_user_id=1
+     *                  http://xcxkf228.aubye.com/api/wxapp/init/send_invitation_commission?p_user_id=1
      */
     public function sendInvitationCommission($p_user_id = 0, $child_id = 0)
     {

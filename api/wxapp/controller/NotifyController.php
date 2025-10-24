@@ -257,7 +257,7 @@ class NotifyController extends AuthController
      * 微信支付回调 测试
      *
      *   test_environment: http://report2.ikun:9090/api/wxapp/notify/wx_pay_notify_test?pay_num=1000
-     *   official_environment: https://lscs001.jscxkf.net/api/wxapp/notify/wx_pay_notify_test?pay_num=1000
+     *   official_environment: http://xcxkf228.aubye.com/api/wxapp/notify/wx_pay_notify_test?pay_num=1000
      *   api:   /wxapp/notify/wx_pay_notify_test?pay_num=1000
      */
     public function wx_pay_notify_test()
